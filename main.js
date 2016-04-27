@@ -1,38 +1,49 @@
-//Week 1 - Project 1
-
-
-// Log all answers to the console and write them to document
-// Please console.log("Question#") followed by console.log(yourAnswer) after each question.
-// =======================================================
-
-//1. Log your name to the console (as a string).
-
 console.log("Question 1");
-console.log(yourAnswer);
-
-//2. Declare a variable called 'name', and then log it to the console.
-
-//3. Declare two variables with number values. 
-//   Add, subtract, multiply and divide them.
-
-//4. Declare two variables with string values. 
-//   Create a third variable that concatenates them.
-
-//5. Add, subract, multiply and divide the strings '5' and '3'. 
-//   Observe the results and know how to explain the results if asked.
-
-//6. Create a prompt that asks a user to pick a number. 
-//   Then double the answer.
-
-//7. Create a custom alert.
-
-//8. Declare three variables called length, width and height. 
-//   Calculate area and volume.
-
-//9. Ask for a user's name, age and city. 
-//   In a single command display/log the sentence:
-//   "My name is...I'm....years old, and I live in....."
-
-//10. Create an alert that uses the response from a prompt.
-
-
+console.log("My name is Dave");
+console.log("Question 2");
+var myFirstName = 'Dave';
+console.log(myFirstName);
+console.log('Question 3');
+var numOfGrapes = 8;
+var numOfKids = 16;
+console.log(numOfGrapes / numOfKids);
+var numOfGrapes = 8;
+var numOfKids = 16;
+console.log(numOfGrapes * numOfKids);
+var numOfGrapes = 8;
+var numOfKids = 16;
+console.log(numOfGrapes + numOfKids);
+var numOfGrapes = 8;
+var numOfKids = 16;
+console.log(numOfGrapes - numOfKids);
+console.log('Question 4');
+var locVines = 'Walla Walla ';
+var typeOfVines = 'Cabernet Sauvignon';
+var output = locVines + typeOfVines;
+console.log(output);
+console.log('Question 5');
+var numTest = '5';
+var numTestAgain = '3';
+console.log(numTest / numTestAgain);
+console.log(numTest - numTestAgain);
+console.log(numTest + numTestAgain);
+console.log(numTest * numTestAgain);
+//All but the '+' application treated the numbers like numbers, they divided, multiplied and subtracted the 5 and 3. They were treated like integers. The '+' concatenated the numbers together like strings.
+console.log('Question 6');
+var customAlert = alert("Hey Whatcha Workin on?");
+console.log('Question 7');
+//do i need to set up a html page??
+var chooseNumberGame = prompt("Pick a Number");
+console.log(chooseNumberGame * 2);
+console.log('Question 8');
+var personName = prompt('Whats your name?');
+var personAge = prompt('Whats your age?');
+var personCity = prompt('What city are you from?');
+console.log(("My name is " + personName) + (". I am " + personAge)  + (" years old and live in " + personCity));
+var whatIsColor = prompt("What's your favorite color?")
+console.log(whatIsColor + " is mine too!");
+console.log('Question 10');
+var height = 2;
+var width = 3;
+var outputArea = (length * width);
+console.log(outputArea);
